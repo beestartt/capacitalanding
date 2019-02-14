@@ -489,10 +489,11 @@ text-align: center;
 }
 
 h11{
-font-size: 25px !important;
+font-size: 20px !important;
 color: black;
 font-family: "Montserrat" !important;
 text-align: center;
+font-weight: normal !important;
 }
 
 h12{
