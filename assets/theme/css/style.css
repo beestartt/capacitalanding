@@ -474,7 +474,86 @@ nav .mbr-section-btn {
   background-color: #06a3da !important;
 
 }
-
+.demo{ background: white; }
+.our-team{
+    text-align: center;
+    position: relative;
+    padding-top: 30px;
+}
+.our-team .pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 8px solid #06a3da;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.our-team img{
+    width: 100%;
+    height: auto;
+}
+.our-team .social{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    transition: all 0.3s ease-out 0s;
+}
+.our-team .social li a{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background: #f28a31;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5px;
+    transform: scale(0);
+    transition: all 0.2s ease 0s;
+}
+.our-team:hover .social li a{ transform: scale(1); }
+.our-team:hover .social li a:hover{ background: #7a4b94; }
+.our-team .team-content{
+    padding: 15px 15px 20px;
+    background: #06a3da;
+    border-radius: 40px 10px;
+    margin-top: -20px;
+    color: #fff;
+}
+.our-team .title{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+.our-team .post{
+    display: block;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.our-team .description{
+    padding: 20px;
+    background: #fff;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #666;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+}
+@media only screen and (max-width: 359px){
+    .our-team .pic{
+        width: 150px;
+        height: 150px;
+    }
+    .our-team .social{ top: 20px; }
+}
+License Terms
 .texto-projeto{
 text-align: left;
 font-size: 20px;
@@ -482,7 +561,7 @@ font-size: 20px;
 
 h10{
 font-size: 65px;
-color: black;
+color: white;
 font-family: "Montserrat" !important;
 font-weight: bold !important;
 text-align: center;
@@ -491,7 +570,7 @@ padding-top: 15px;
 
 h11{
 font-size: 20px !important;
-color: black;
+color: white;
 font-family: "Montserrat" !important;
 text-align: center;
 font-weight: normal !important;
@@ -524,3 +603,5 @@ h14{
 
 
 
+
+    
