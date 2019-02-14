@@ -478,7 +478,7 @@ nav .mbr-section-btn {
 .our-team{
     text-align: center;
     position: relative;
-    padding-top: 70px;
+    padding-top: 60px;
     height: 70vh;
 }
 .our-team .pic{
@@ -602,6 +602,14 @@ h14{
     font-weight: bold;
     }
 
+.consultants-title {
+    font-size: 24px;
+    color: orangered !important;
+    font-family: "Montserrat" !important;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    }
 
 
 
