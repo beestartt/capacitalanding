@@ -482,15 +482,15 @@ font-size: 20px;
 
 h10{
 font-size: 65px;
-color: #fff;
+color: black;
 font-family: "Montserrat" !important;
 font-weight: bold !important;
 padding-left: 220px;
 }
 
 h11{
-font-size: 45px;
-color: #fff;
+font-size: 15px !important;
+color: black;
 font-family: "Montserrat" !important;
 padding-left: 160px; 
 }
