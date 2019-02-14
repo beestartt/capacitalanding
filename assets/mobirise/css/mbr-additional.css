@@ -1773,7 +1773,7 @@ body {
 .cid-qUjvTjSB3s {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #ffffff;
+  background-color: #06a9db;
 }
 @media (min-width: 992px) {
   .cid-qUjvTjSB3s .mbr-figure {
@@ -1786,8 +1786,9 @@ body {
   }
 }
 .cid-qUjvTjSB3s .mbr-text {
-  color: #0b1d31;
+  color: white;
   text-align: left;
+  font-size: 12px !important;
 }
 .cid-qUjvTjSB3s .mbr-text B {
   color: #f7861c;
