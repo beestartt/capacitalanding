@@ -602,6 +602,22 @@ h14{
     font-weight: bold;
     }
 
+h15 {
+    font-size: 16px;
+    color: white;
+    font-family: "Montserrat" !important;
+    text-align: center !important;
+    font-weight: normal !important;
+    }
+
+    h16 {
+        font-size: 20px;
+        color: white;
+        font-family: "Montserrat" !important;
+        text-align: center !important;
+        font-weight: bold !important;
+        }
+
 .consultants-title {
     font-size: 32px;
     color: orangered !important;
