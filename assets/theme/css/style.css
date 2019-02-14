@@ -485,14 +485,14 @@ font-size: 65px;
 color: black;
 font-family: "Montserrat" !important;
 font-weight: bold !important;
-padding-left: 220px;
+text-align: center;
 }
 
 h11{
-font-size: 15px !important;
+font-size: 25px !important;
 color: black;
 font-family: "Montserrat" !important;
-padding-left: 160px; 
+text-align: center;
 }
 
 h12{
