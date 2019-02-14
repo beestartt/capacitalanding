@@ -603,12 +603,13 @@ h14{
     }
 
 .consultants-title {
-    font-size: 24px;
+    font-size: 32px;
     color: orangered !important;
     font-family: "Montserrat" !important;
     text-align: center;
     font-weight: bold;
-    padding-top: 20px;
+    padding-top: 25px;
+    padding-bottom: 40px !important;
     }
 
 
