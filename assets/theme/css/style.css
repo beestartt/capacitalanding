@@ -478,15 +478,17 @@ nav .mbr-section-btn {
 .our-team{
     text-align: center;
     position: relative;
-    padding-top: 30px;
+    padding-top: 70px;
+    height: 70vh;
 }
 .our-team .pic{
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     border: 8px solid #06a3da;
     margin: 0 auto;
     overflow: hidden;
+    
 }
 .our-team img{
     width: 100%;
