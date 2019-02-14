@@ -526,7 +526,7 @@ nav .mbr-section-btn {
     color: #fff;
 }
 .our-team .title{
-    font-size: 30px;
+    font-size: 18px;
     font-weight: bold;
     margin: 10px 0 5px 0;
 }
@@ -537,7 +537,7 @@ nav .mbr-section-btn {
     text-transform: uppercase;
 }
 .our-team .description{
-    padding: 20px;
+    padding: 16px;
     background: #fff;
     border-radius: 20px;
     font-size: 16px;
