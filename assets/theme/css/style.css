@@ -512,3 +512,11 @@ color: #fff;
 font-family: "Montserrat" !important;
 text-align: center;
 }
+
+h13{
+    font-size: 24px;
+    color: #fff;
+    font-family: "Montserrat" !important;
+    text-align: center;
+    font-weight: bold;
+    }
