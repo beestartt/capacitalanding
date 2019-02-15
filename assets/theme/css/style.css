@@ -637,7 +637,7 @@ h15 {
     @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
 
     body {
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Montserrat';
         line-height: 1.5;
         color: #323232;
         font-size: 15px;
@@ -688,7 +688,7 @@ h15 {
         bottom: 0;
         right: 0;
         margin: 0;
-        border: 20px solid rgba(0, 0, 0, 0.1);
+        border: 15px solid rgba(0, 0, 0, 0.1);
         background-color: rgba(255, 255, 255, 0.90);
         opacity: 0;
         -webkit-transition: all 0.3s;
