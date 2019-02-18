@@ -797,7 +797,7 @@ figure.snip1196 * {
   transition: all 0.2s ease-out;
 }
 figure.snip1196 img {
-  max-width: 100%;
+  max-width: 50%;
   vertical-align: top;
 }
 figure.snip1196 figcaption {
