@@ -763,3 +763,91 @@ h15 {
         letter-spacing: 1px;
     }
     
+
+
+
+
+
+    @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+figure.snip1196 {
+  font-family: 'Raleway', Arial, sans-serif;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 310px;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+}
+figure.snip1196 * {
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+figure.snip1196 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+figure.snip1196 figcaption {
+  top: 50%;
+  left: 20px;
+  right: 20px;
+  position: absolute;
+  opacity: 0;
+  z-index: 1;
+}
+figure.snip1196 h2,
+figure.snip1196 h4 {
+  margin: 0;
+}
+figure.snip1196 h2 {
+  font-weight: 600;
+}
+figure.snip1196 h4 {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+figure.snip1196 i {
+  font-size: 32px;
+}
+figure.snip1196:after {
+  background-color: #ffffff;
+  position: absolute;
+  content: "";
+  display: block;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+  opacity: 0;
+}
+figure.snip1196 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+figure.snip1196:hover figcaption,
+figure.snip1196.hover figcaption {
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  opacity: 1;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+figure.snip1196:hover:after,
+figure.snip1196.hover:after {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 0.9;
+}
