@@ -618,6 +618,14 @@ h15 {
         font-weight: bold !important;
         }
 
+        h16 {
+            font-size: 12px;
+            color: black;
+            font-family: "Montserrat" !important;
+            text-align: center !important;
+            font-weight: bold !important;
+            }
+
 .consultants-title {
     font-size: 32px;
     color: orangered !important;
