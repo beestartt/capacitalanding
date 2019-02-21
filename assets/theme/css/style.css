@@ -638,9 +638,9 @@ h15 {
 
     .banner-background {
         background-color: #06a9db !important;
+        height: 100vh;
+        width: 100vh;
     }
-
-
 
 
 
