@@ -605,11 +605,11 @@ h14{
     }
 
 h15 {
-    font-size: 16px;
-    color: white;
+    font-size: 15px;
+    color: black;
     font-family: "Montserrat" !important;
     text-align: center !important;
-    font-weight: normal !important;
+    font-weight: bold !important;
     }
 
     h16 {
@@ -617,11 +617,11 @@ h15 {
         color: white;
         font-family: "Montserrat" !important;
         text-align: center !important;
-        font-weight: bold !important;
+        font-weight: 500px !important;
         }
 
         h16 {
-            font-size: 12px;
+            font-size: 18px;
             color: black;
             font-family: "Montserrat" !important;
             text-align: center !important;
