@@ -571,7 +571,7 @@ padding-top: 25px !important;
 }
 
 h11{
-font-size: 20px !important;
+font-size: 15px !important;
 color: white;
 font-family: "Montserrat" !important;
 text-align: center;
@@ -634,6 +634,10 @@ h15 {
     font-weight: bold;
     padding-top: 25px;
     padding-bottom: 40px !important;
+    }
+
+    .banner-background {
+        background-color: #06a9db !important;
     }
 
 
@@ -909,3 +913,6 @@ h15 {
     figure.snip1382.hover figcaption p {
       opacity: 0.7;
     }
+
+
+    
