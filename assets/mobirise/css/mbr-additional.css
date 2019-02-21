@@ -1976,6 +1976,12 @@ body {
   padding-top: 20px;
   font-size: 15px;
   margin-left: 130px;
+  transition: .5s !important;
+  }
+  
+  .button-card:hover {
+      background-color: #e66f00 !important;
+      transition: .5s !important;
   }
   
   .text-card{
