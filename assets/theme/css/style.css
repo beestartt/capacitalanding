@@ -626,6 +626,7 @@ h15 {
             font-weight: bold !important;
             }
 
+
 .consultants-title {
     font-size: 32px;
     color: orangered !important;
@@ -638,8 +639,7 @@ h15 {
 
     .banner-background {
         background-color: #06a9db !important;
-        height: 100vh;
-        width: 100vh;
+  
     }
 
 
