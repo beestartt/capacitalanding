@@ -474,6 +474,9 @@ body {
 .text-success {
   color: #06a3da !important;
 }
+text-success:focus {
+    color: #035977 !important;
+  }
 .text-info {
   color: #f78a1c !important;
 }
