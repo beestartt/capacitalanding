@@ -221,7 +221,9 @@ figure[mbr-media-size] {
 .mbr-section-btn {
   margin-left: -.25rem;
   margin-right: -.25rem;
-  font-size: 0; }
+  font-size: 0; 
+  padding-top: 15px;
+}
 
 nav .mbr-section-btn {
   margin-left: 0rem;
@@ -571,7 +573,7 @@ padding-top: 25px !important;
 }
 
 h11{
-font-size: 15px !important;
+font-size: 22px !important;
 color: white;
 font-family: "Montserrat" !important;
 text-align: center;
@@ -639,7 +641,7 @@ h15 {
 
     .banner-background {
         background-color: #06a9db !important;
-  
+        margin-top: 20px !important;
     }
 
 
