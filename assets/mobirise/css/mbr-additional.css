@@ -1967,6 +1967,7 @@ body {
 .button-card{
   background-color: #f7861c !important;
   text-align: center;
+  font-weight: bold !important;
   border-color: #f7861c !important;
   color: #ffffff !important;
   border-radius: 20px;
