@@ -814,6 +814,12 @@ h16 {
     font-weight: bold !important;
 }
 
+h17 {
+    color: white;
+    font-size: 20px;
+    font-style: bold;
+}
+
 .consultants-title {
     font-size: 32px;
     color: orangered !important;
@@ -1148,3 +1154,5 @@ figure.snip1382.hover figcaption p {
     /* If max-width does not work, try using width instead */
     width: 350px; 
 }
+
+h12
