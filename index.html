@@ -23,11 +23,19 @@
 			href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
 			rel="stylesheet"
 			id="bootstrap-css"
-		/>
+        />
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 		<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 		<link rel="shortcut icon" type="image/x-icon" href="Imagens/favicon.png" />
-		<!------ Include the above in your HEAD tag ---------->
+        <!------ Include the above in your HEAD tag ---------->
+        <script type="text/javascript">
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            })
+        </script>
 	</head>
 	<body>
 		<section class="menu cid-qTkzRZLJNu" once="menu" id="menu1-0">
@@ -244,7 +252,7 @@
 							</div>
 							<div class="team-hover">
 								<div class="desk">
-									<p>
+									<p id="idtext">
 										Governos e Prefeituras (população); <br />
 										Bancos públicos e privados (clientes PJ e PF); <br />
 										Instituições de ensino (alunos); <br />
@@ -266,8 +274,21 @@
 									<a href="#"><i class="fa fa-google-plus"></i></a>
 								</div>
 							</div>
-						</div>
-						<div class="team-title">
+                        </div>
+                        <div class="team-title " data-toggle="tooltip" data-placement="top"  
+                        data-html="true" title="Governos e Prefeituras (população); <br />
+                        Bancos públicos e privados (clientes PJ e PF); <br />
+                        Instituições de ensino (alunos); <br />
+                        Associações e federações comerciais e de classe
+                        (associados); <br />
+                        Cooperativas de crédito e de produção (cooperados); <br />
+                        Fábricas, Indústrias e Distribuidores (clientes no varejo);
+                        <br />
+                        Associações de moradores, APLs, pequenos produtores rurais e
+                        artesãos;
+                        <br />
+                        Participamos de ações sociais com Institutos, Fundações e
+                        Ongs que possuam ações com empreendedorismo.">
 							<h5>Parcerias</h5>
 						</div>
 					</div>
@@ -1064,7 +1085,7 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="our-team">
 							<div class="pic">
-								<img src="Imagens/hildete.jpg" alt="" />
+								<img src="Imagens/hi.jpg" alt="" />
 							</div>
 							<ul class="social">
 								<li><a href="#" class="fab fa-facebook"></a></li>

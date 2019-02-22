@@ -1138,3 +1138,9 @@ figure.snip1382:hover figcaption p,
 figure.snip1382.hover figcaption p {
     opacity: 0.7;
 }
+
+.tooltip-inner {
+    max-width: 350px;
+    /* If max-width does not work, try using width instead */
+    width: 350px; 
+}
