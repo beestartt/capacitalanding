@@ -721,10 +721,10 @@ nav .mbr-section-btn {
 .our-team .description {
     padding: 16px;
     background: #fff;
-    border-radius: 20px;
     font-size: 16px;
-    color: #666;
+    color: black;
     line-height: 30px;
+    font-family: "Montserrat" !important;
     margin-bottom: 0;
 }
 
@@ -752,7 +752,6 @@ License Terms .texto-projeto {
 h10 {
     font-size: 65px;
     color: white;
-    font-family: "Montserrat" !important;
     font-weight: bold !important;
     text-align: center;
     padding-top: 25px !important;

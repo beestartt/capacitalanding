@@ -1959,7 +1959,7 @@ body {
 .imagem-icone{
   width: 120px;
   height: 120px;
-  margin-left: 160px;
+  margin-left: 100px;
 }
 
 .card-text{
@@ -2004,6 +2004,7 @@ body {
   color: #000;
   line-height: 1.6;
   font-size: 16px;
+  font-style: bold;
 }
 
 .nomes-equipe{
