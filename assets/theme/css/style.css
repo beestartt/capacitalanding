@@ -1146,13 +1146,17 @@ figure.snip1382.hover figcaption p {
 }
 
 .tooltip-inner {
-    max-width: 350px;
+    max-width: 550px;
     background-color:#0a4e90;
     color: white;
     font-size: 16px;
     font-style: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
     /* If max-width does not work, try using width instead */
-    width: 350px; 
+    width: 550px; 
 }
 
 h12
