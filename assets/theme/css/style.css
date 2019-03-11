@@ -1159,4 +1159,45 @@ figure.snip1382.hover figcaption p {
 }
 
 
-h12
+@import "compass/css3";
+
+.logos-container {
+  padding: 0;
+  margin: 0 6.25% 0 6.25%;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+  
+  list-style: none;
+}
+
+.logo-item {
+  padding: 5px;
+  width: 200px;
+  height: 120px;
+  margin-top: 10px; 
+  line-height: 150px;
+  text-align: center;
+}
+
+.one {
+  background-image: url("https://res.cloudinary.com/gus-armistead/image/upload/c_scale,w_200/v1462800694/placelogo_placeholder_jeuzcs.jpg");
+}
+
+.two {
+  background-image: url("https://res.cloudinary.com/gus-armistead/image/upload/c_scale,h_120,w_200/v1462800636/logo-placeholder_svwvb7.jpg");
+}
+
+.three {
+  background-image: url("https://res.cloudinary.com/gus-armistead/image/upload/c_scale,h_120,w_200/v1462800662/client-logo-placeholder_ny0sye.png");
+}
+
+.four {
+  background-image: url("https://res.cloudinary.com/gus-armistead/image/upload/c_scale,h_120,w_200/v1462800627/logo-placeholder_zi3gbr.jpg");
+}
