@@ -647,7 +647,7 @@ nav .mbr-section-btn {
 .our-team {
     text-align: center;
     position: relative;
-    padding-top: 60px;
+    padding-top: 10px;
     height: 80vh;
 }
 
@@ -1158,18 +1158,5 @@ figure.snip1382.hover figcaption p {
     width: 550px; 
 }
 
-.tooltips-inner {
-    max-width: 550px;
-    background-color:orangered;
-    color: white;
-    font-size: 16px;
-    font-style: bold;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-    /* If max-width does not work, try using width instead */
-    width: 550px; 
-}
 
 h12
