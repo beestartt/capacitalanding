@@ -814,8 +814,9 @@ h16 {
 }
 
 h17 {
+    font-family: inherit !important;
     color: white;
-    font-size: 20px;
+    font-size: 26px;
     font-style: bold;
 }
 
