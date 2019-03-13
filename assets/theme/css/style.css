@@ -1194,3 +1194,18 @@ figure.snip1382.hover figcaption p {
 .two {
   background-image: url("https://res.cloudinary.com/gus-armistead/image/upload/c_scale,h_120,w_200/v1462800636/logo-placeholder_svwvb7.jpg");
 }
+
+#partners {
+    background-color: #fe7e17 !important;
+    height: 60vh;
+}
+
+.partners-title {
+    font-size: 32px;
+    color: white !important;
+    font-family: "Montserrat" !important;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 90px !important;
+}
