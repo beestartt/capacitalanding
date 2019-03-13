@@ -1188,11 +1188,13 @@ figure.snip1382.hover figcaption p {
 }
 
 .one {
-  background-image: url("https://res.cloudinary.com/gus-armistead/image/upload/c_scale,w_200/v1462800694/placelogo_placeholder_jeuzcs.jpg");
+    background-image: url("../../../assets/images/bs.png");
+    width: 20% !important;
 }
 
 .two {
-  background-image: url("https://res.cloudinary.com/gus-armistead/image/upload/c_scale,h_120,w_200/v1462800636/logo-placeholder_svwvb7.jpg");
+  background-image: url("../../../assets/images/bs.png");
+  width: 20% !important;
 }
 
 #partners {
