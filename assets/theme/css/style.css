@@ -1188,13 +1188,17 @@ figure.snip1382.hover figcaption p {
 }
 
 .one {
-    background-image: url("../../../assets/images/bs.png");
-    width: 20% !important;
+    background-image: url("../../../assets/images/bs.2.png");
+    width: 320px !important;
+    height: 120px;
+    margin-right: 90px;
+    margin-left: 120px;
 }
 
 .two {
-  background-image: url("../../../assets/images/bs.png");
-  width: 20% !important;
+  background-image: url("../../../assets/images/bs.2.png");
+  width: 320px !important;
+  height: 120px;
 }
 
 #partners {
