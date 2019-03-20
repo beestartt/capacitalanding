@@ -1147,8 +1147,8 @@ figure.snip1382.hover figcaption p {
 
 .tooltip-inner {
     max-width: 550px;
-    background-color:#0a4e90;
-    color: white;
+    background-color:white;
+    color: black;
     font-size: 16px;
     font-style: bold;
     padding-top: 20px;
