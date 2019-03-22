@@ -814,7 +814,7 @@ h16 {
 }
 
 h17 {
-    font-family: inherit !important;
+    font-family: 'Montserrat' !important;
     color: white;
     font-size: 26px;
     font-style: bold;
@@ -1147,8 +1147,8 @@ figure.snip1382.hover figcaption p {
 
 .tooltip-inner {
     max-width: 550px;
-    background-color:white;
-    color: black;
+    background-color:white !important;
+    color: black !important;
     font-size: 16px;
     font-style: bold;
     padding-top: 20px;
