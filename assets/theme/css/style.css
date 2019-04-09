@@ -750,7 +750,7 @@ License Terms .texto-projeto {
 }
 
 h10 {
-    font-size: 65px;
+    font-size: 2em;
     color: white;
     font-weight: bold !important;
     text-align: center;
@@ -782,7 +782,7 @@ h13 {
 }
 
 h14 {
-    font-size: 24px;
+    font-size: 2em;
     color: #fff !important;
     font-family: "Montserrat" !important;
     text-align: center;
@@ -1214,4 +1214,40 @@ figure.snip1382.hover figcaption p {
     font-weight: bold;
     padding-top: 40px;
     padding-bottom: 90px !important;
+}
+
+
+h18 {
+    font-size: 20px !important;
+    color: #0a4e90;
+    font-family: "Montserrat" !important;
+    text-align: center;
+    font-weight: normal !important;
+    justify-content: center;
+}
+
+h19 {
+    font-size: 2em;
+    color: #0a4e90;
+    font-weight: bold !important;
+    text-align: center;
+    padding-top: 25px !important;
+}
+
+.text-uppercase-products {
+    text-transform: uppercase;
+    
+    font-size: 2em;
+}
+
+.image-cursos {
+    flex-direction: column;
+    display: flex; 
+    align-items: center;
+}
+
+.button-cursos-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
