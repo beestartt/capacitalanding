@@ -2353,14 +2353,15 @@ body {
 
 .card-text {
     text-align: center;
-    color: #0a4e90;
+    color: #0a4e90 !important;
+    margin-top: 2vh;
 }
 
 .button-card {
-    background-color: #f7861c !important;
+    background-color: rgb(6, 163, 218) !important;
     text-align: center;
     font-weight: bold !important;
-    border-color: #f7861c !important;
+    border-color:  rgb(6, 163, 218) !important;
     color: #ffffff !important;
     border-radius: 20px;
     padding-right: 20px;
@@ -2372,19 +2373,26 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 100%;
     
 
 }
 
 .button-card:hover {
-    background-color: #e66f00 !important;
+    background-color:  rgb(5, 52, 70) !important;
     transition: .5s !important;
 }
 
 .text-card {
     text-align: center;
-    color: #000 !important;
+    color: #ffffff !important;
 }
+
+.text-card-blue {
+    text-align: center;
+    color: #0d0636 !important;
+}
+
 
 .contact-text {
     text-align: center;

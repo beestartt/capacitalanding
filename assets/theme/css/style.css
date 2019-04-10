@@ -1235,8 +1235,6 @@ h19 {
 }
 
 .text-uppercase-products {
-    text-transform: uppercase;
-    
     font-size: 2em;
 }
 
@@ -1250,4 +1248,25 @@ h19 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.temas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 49vh;
+    justify-content: space-between;
+
+}
+
+.temas-img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.margin {
+    margin: 10vh;
 }
