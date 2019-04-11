@@ -1189,25 +1189,27 @@ figure.snip1382.hover figcaption p {
 
 .one {
     background-image: url("../../../assets/images/aplicacao-branca-1.png");
-    width: 320px !important;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 100% !important;
     height: 120px;
-    margin-right: 90px;
-    margin-left: 120px;
 }
 
 .two {
   background-image: url("../../../assets/images/trupe-menor.png");
-  width: 230px !important;
-  height: 150px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  width: 100% !important;
+  height: 120px;
 }
 
 #partners {
-    background-color: #fe7e17 !important;
-    height: 70vh;
+    background-color: #06a3da !important;
+    height: 100vh;
 }
 
 .partners-title {
-    font-size: 32px;
+    font-size: 2em;
     color: white !important;
     font-family: "Montserrat" !important;
     text-align: center;
@@ -1270,3 +1272,22 @@ h19 {
 .margin {
     margin: 10vh;
 }
+
+.display-partners {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.margin-top-nav {
+  margin-top: 5vh;
+}
+
+.margin-top-section {
+  padding-top: 100px;
+}
+
+.ponto-none {
+  list-style-type: none;
+}
+
