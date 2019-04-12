@@ -1280,7 +1280,7 @@ h19 {
 }
 
 .margin-top-nav {
-  margin-top: 5vh;
+  margin-top: 10vh;
 }
 
 .margin-top-section {
@@ -1291,3 +1291,47 @@ h19 {
   list-style-type: none;
 }
 
+ .flex {
+   display: flex;
+ }
+
+ .business-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+ @media (max-width: 767px) {
+  .business-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+}
+
+.partners-logo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.botton-margin {
+  margin-bottom: 8vh;
+}
+
+.justify {
+  text-align: end;
+}
+
+.icon-capacita {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .justify {
+    text-align: center;
+  }
+}
