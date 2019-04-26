@@ -2353,7 +2353,7 @@ body {
 
 .card-text {
     text-align: center;
-    color: #0a4e90 !important;
+    color: rgb(6, 163, 218) !important;
     margin-top: 2vh;
 }
 
@@ -2579,7 +2579,7 @@ body {
 }
 
 .text-blue {
-  color: #0a4e90;
+  color: rgb(6, 163, 218);
 }
 
 .text-padding {
@@ -2598,4 +2598,14 @@ body {
 
 .padding-logo {
   padding-bottom: 6vh;
+}
+
+.card-text-white {
+  text-align: center;
+  color: white !important;
+  margin-top: 2vh;
+}
+
+.section-padding {
+  padding-bottom: 11vh;
 }
