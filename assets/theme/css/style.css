@@ -1205,7 +1205,7 @@ figure.snip1382.hover figcaption p {
 
 #partners {
     background-color: #06a3da !important;
-    height: 100vh;
+    height: 100%;
 }
 
 .partners-title {
@@ -1334,4 +1334,28 @@ h19 {
   .justify {
     text-align: center;
   }
+}
+
+.just-partners {
+  text-align: justify;
+}
+
+.color-partners {
+  color: white;
+}
+
+
+.align-partners-left {
+  text-align: initial;
+  margin-left: 120px;
+}
+
+.align-partners-end {
+  text-align: end;
+  margin-right: 120px;
+}
+
+.partners-width {
+  width: 100%;
+  margin-bottom: 5%;
 }

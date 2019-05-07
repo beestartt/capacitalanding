@@ -2145,7 +2145,7 @@ body {
 }
 
 .cid-qUjvTjSB3s .mbr-text B {
-    color: #f7861c;
+    color: #daa877;
 }
 
 .cid-qUjHwV2RPV {
@@ -2608,4 +2608,18 @@ body {
 
 .section-padding {
   padding-bottom: 11vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.capacita-justify {
+  text-align: justify;
+}
+
+.card-text-red {
+  text-align: center;
+  color: rgb(184, 0, 0) !important;
+  margin-top: 2vh;
 }
