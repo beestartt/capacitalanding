@@ -1359,3 +1359,8 @@ h19 {
   width: 100%;
   margin-bottom: 5%;
 }
+
+.pj-pf {
+  text-align: center;
+  display: flex;
+}
