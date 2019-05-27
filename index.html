@@ -20,7 +20,7 @@
 		<link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css" />
 
 		
-		<script
+    <script
 			src="https://code.jquery.com/jquery-3.3.1.min.js"
 			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 			crossorigin="anonymous"
@@ -32,7 +32,32 @@
 				$('[data-toggle="tooltip"]').tooltip();
 			});
         </script>
-        
+    
+    <script>
+      function themesVariable () {
+        var people = document.getElementById("themes-pf");
+        var company = document.getElementById("themes-pj");
+       
+      if (people) {
+        company.style.display = "none";
+          people.style.display = "block";
+        } 
+       
+      }
+    </script>
+    <script>
+      function themesVariableCompany () {
+        var people = document.getElementById("themes-pf");
+        var company = document.getElementById("themes-pj");
+       
+      if (company) {
+        people.style.display = "none";
+        company.style.display = "block";
+        }
+       
+      }
+    </script>
+    
        
 	</head>
 	<body>
@@ -342,20 +367,57 @@
 		</section>
 
 		<br />
-		<br />
-
-    <!--Carousel Wrapper-->
+    <br />
+    
     <section id="themes">
-		<div class="row section-padding">
+      <div class="col-md-12 heading-title text-center">
+        <br />
+        <br />
+        <h14 class="card-text text-uppercase-products">Nossos Temas</h14>
+      </div>
+      <div class="flex">
+          
+        <div class="col-md-6 partners-logo col-xs-12">
+            
+         <a href="index.html#themes-pf" >
+            <div >
+              <img
+              onclick="themesVariable()"
+              class="imagem-icone"
+              src="Imagens/cpf.jpg"
+              alt="Card image cap"
+              />
+           </div>
+         </a>
+       </div>
+
+        <div class="col-md-6 partners-logo col-xs-12">
+           <a  href="index.html#themes-pj">
+              <div >
+                <img
+                  onclick="themesVariableCompany()"
+                  class="imagem-icone"
+                  src="Imagens/cnpj.jpg"
+                  alt="Card image cap"
+                 />
+              </div>
+          </a>
+       </div>
+      </div>
+    </section>
+    
+    
+    <section>
+		<div id="themes-pf" class=" row themes-width section-padding">
 		<div class="col-md-12 heading-title text-center">
 			<br />
 			<br />
-			<h14 class="card-text text-uppercase-products">Nossos Temas</h14>
+			<h14 class="card-text text-uppercase-products">Nossos Temas Para Pessoa Física</h14>
 		</div>
 			<div>
 				<div class="d-flex row">
 					
-					<div class="col-md-3 col-xs-12 clearfix">
+					<div  class="col-md-3 col-xs-12 clearfix">
 							<div class="card mb-2 temas">
 							<div>
 								<img
@@ -371,9 +433,7 @@
 									</p>
 	
                   <div class="pj-pf">
-                    <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZOEG5l2ZB3snAgsdK&type=themes" target="_blank">PF</a>
-                     <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZRZuIP5GVNrgVeb4C&type=themes" target="_blank">PJ</a>  
-
+                    <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZOEG5l2ZB3snAgsdK&type=themes" target="_blank">Mais Detalhes</a>
                   </div>
 								
 							</div>
@@ -395,8 +455,8 @@
 								</p>
 
                 <div class="pj-pf">
-                  <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZOJZX-ctLBmqVbcqY&type=themes" target="_blank">PF</a>
-                  <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZRbJ8jXPfRUrV2cvo&type=themes" target="_blank">PJ</a>
+                  <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZOJZX-ctLBmqVbcqY&type=themes" target="_blank">Mais Detalhes</a>
+                  
 
                 </div>
 							
@@ -420,9 +480,7 @@
 									</p>
 	
                   <div class="pj-pf">
-                    <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZOM-uL8jpwiL8iiNy&type=themes" target="_blank">PF</a>
-                    <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZRhtnyCqyJZkYgbor&type=themes" target="_blank">PJ</a> 
-
+                    <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZOM-uL8jpwiL8iiNy&type=themes" target="_blank">Mais Detalhes</a>
                   </div>
 								
 							</div>
@@ -475,9 +533,7 @@
 										</p>
 		
                     <div class="pj-pf">
-                      <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZQKa3Yef9tQKaEYQ1&type=themes" target="_blank">PF</a>
-                      <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZV2iPULmVL85bP4Q0&type=themes" target="_blank">PJ</a>
-
+                      <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZQKa3Yef9tQKaEYQ1&type=themes" target="_blank">Mais Detalhes</a>
                     </div>
 									
 								</div>
@@ -499,9 +555,7 @@
 										</p>
 		
                     <div class="pj-pf">
-                      <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZOWREI2bAmdYVtcMJ&type=themes" target="_blank">PF</a>
-                      <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZRrOE6gYvWaunM6QV&type=themes" target="_blank">PJ</a> 
-
+                      <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZOWREI2bAmdYVtcMJ&type=themes" target="_blank">Mais Detalhes</a>
                     </div>
 									
 								</div>
@@ -525,9 +579,7 @@
 										</p>
 		
                     <div class="pj-pf">
-                      <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZOZjIR0Eu3l3PcsfR&type=themes" target="_blank">PF</a>
-                      <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZRuIjP8ArL6xzOZLO&type=themes" target="_blank">PJ</a> 
-
+                      <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZOZjIR0Eu3l3PcsfR&type=themes" target="_blank">Mais Detalhes</a>
                     </div>
 									
 								</div>
@@ -549,8 +601,8 @@
 										</p>
 		
                     <div class="pj-pf">
-                      <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZObxjSnsZprarLDIF&type=themes" target="_blank">PF</a>
-                      <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZRw8b4YOPIytbWOsE&type=themes" target="_blank">PJ</a>
+                      <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZObxjSnsZprarLDIF&type=themes" target="_blank">Mais Detalhes</a>
+                      
 
                     </div>
 									
@@ -579,9 +631,7 @@
 								</p>
 
                 <div class="pj-pf">
-                  <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZOf8X5r9NMNl9mWTi&type=themes" target="_blank">PF</a>
-                  <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZSH9XQvpfrtU9w307&type=themes" target="_blank">PJ</a> 
-
+                  <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZOf8X5r9NMNl9mWTi&type=themes" target="_blank">Mais Detalhes</a>
                 </div>
 							
 						</div>
@@ -603,8 +653,7 @@
 									</p>
 	
                   <div class="pj-pf">
-                    <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZOl_X7IqSoCmGkBDZ&type=themes" target="_blank">PF</a>
-                    <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZSO2LgA87Dr5_UpPI&type=themes" target="_blank">PJ</a>
+                    <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZOl_X7IqSoCmGkBDZ&type=themes" target="_blank">Mais Detalhes</a>
 
                   </div>
 								
@@ -626,8 +675,7 @@
 									</p>
 	
                   <div class="pj-pf">
-                    <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZOpCJYsPXFuk-kDWI&type=themes" target="_blank">PF</a>
-                    <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LWCVAteUoc9vYew8cR6&type=themes" target="_blank">PJ</a> 
+                    <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZOpCJYsPXFuk-kDWI&type=themes" target="_blank">Mais Detalhes</a>
 
                   </div>
 								
@@ -651,8 +699,790 @@
 									</p>
 	
                   <div class="pj-pf">
-                    <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZPBcXE50axMRF7qVJ&type=themes" target="_blank">PF</a>
-                    <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZSWhIMRO1QcAAFK8V&type=themes" target="_blank">PJ</a> 
+                    <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZPBcXE50axMRF7qVJ&type=themes" target="_blank">Mais Detalhes</a>
+                  </div>
+								
+							</div>
+					</div>
+				</div>
+				<!--/.Third slide-->
+				<div class="margin"></div>
+
+				<div class="d-flex row">
+					
+
+				
+
+
+					<div class="col-md-3 col-xs-12 clearfix">
+						<div class="card mb-2 temas">
+						<div class="card mb-2 temas-img" >
+							<img
+								class="imagem-icone"
+								src="Imagens/socios.png"
+								alt="Card image cap"
+							/>
+							<h4 class="card-text" >Alimento de Sócios</h4>
+						</div>
+								<p class="text-card-blue">
+										
+
+								</p>
+
+                <div class="pj-pf">
+                   <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LSRVVvm39LKAtb6kurn&type=themes" target="_blank">Mais Detalhes</a>
+                  </div>
+
+							
+						</div>
+					</div>
+
+
+				
+					<div class="col-md-3 col-xs-12 clearfix">
+						<div class="card mb-2 temas">
+						<div class="card mb-2 temas-img" >
+							<img
+								class="imagem-icone"
+								src="Imagens/estrategico-empresarial.png"
+								alt="Card image cap"
+							/>
+							<h4 class="card-text" >Planejamento Estratégico Empresarial</h4>
+						</div>
+								<p class="text-card-blue">
+										
+
+								</p>
+
+                <div class="pj-pf">
+                  <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LSR__lMg02o95LfK0gE&type=themes" target="_blank">Mais Detalhes</a> 
+                </div>
+							
+						</div>
+					</div>
+
+
+
+					<div class="col-md-3 col-xs-12 clearfix">
+							<div class="card mb-2 temas">
+							<div class="card mb-2 temas-img" >
+								<img
+									class="imagem-icone"
+									src="Imagens/imagem.png"
+									alt="Card image cap"
+								/>
+								<h4 class="card-text" >Imagem da Empresa</h4>
+							</div>
+									<p class="text-card-blue">
+											Identidade visual, definindo a imagem da fachada e da loja e importância...
+	
+									</p>
+	
+                  <div class="pj-pf">
+                    <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZPGmfjglJjqabhxst&type=themes" target="_blank">Mais Detalhes</a>
+                  </div>
+							</div>
+						</div>
+					
+
+						<div class="col-md-3 col-xs-12 clearfix">
+								<div class="card mb-2 temas">
+								<div class="card mb-2 temas-img" >
+									<img
+										class="imagem-icone"
+										src="Imagens/publicidade.png"
+										alt="Card image cap"
+									/>
+									<h4 class="card-text" >Publicidade e Propaganda</h4>
+								</div>
+										<p class="text-card-blue">
+												Construindo uma marca forte, a importância da comunicação e canais...
+		
+										</p>
+		
+                    <div class="pj-pf">
+                      <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZPRuzTOvn7nfPXWvk&type=themes" target="_blank">Mais Detalhes</a>
+                    </div>
+									
+								</div>
+							</div>
+					
+
+				</div>
+
+				<div class="margin"></div>
+
+				<div class="d-flex row">
+
+
+						<div class="col-md-3 col-xs-12 clearfix">
+								<div class="card mb-2 temas">
+								<div class="card mb-2 temas-img" >
+									<img
+										class="imagem-icone"
+										src="Imagens/comerciais.png"
+										alt="Card image cap"
+									/>
+									<h4 class="card-text" >Estratégias Comerciais</h4>
+								</div>
+										<p class="text-card-blue">
+												Estratégias de comercialização, técnicas de negociação
+										e vendas, pós-Venda...
+		
+										</p>
+		
+                    <div class="pj-pf">
+                      <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZPRuzTOvn7nfPXWvk&type=themes" target="_blank">Mais detalhes</a>
+                    </div>
+									
+								</div>
+							</div>
+
+						
+							<div class="col-md-3 col-xs-12 clearfix">
+									<div class="card mb-2 temas">
+									<div class="card mb-2 temas-img" >
+										<img
+											class="imagem-icone"
+											src="Imagens/atendimento.png"
+											alt="Card image cap"
+										/>
+										<h4 class="card-text" >Atendimento</h4>
+									</div>
+											<p class="text-card-blue">
+													Tipos de atendimento, técnicas de atendimento e central de atendimento...
+			
+											</p>
+			
+                      <div class="pj-pf">
+                        <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZPV3-Vlv7A89uN6lA&type=themes" target="_blank">Mais Detalhes</a>
+                      </div>
+										
+									</div>
+								</div>
+
+
+								<div class="col-md-3 col-xs-12 clearfix">
+										<div class="card mb-2 temas">
+										<div class="card mb-2 temas-img" >
+											<img
+												class="imagem-icone"
+												src="Imagens/internet.png"
+												alt="Card image cap"
+											/>
+											<h4 class="card-text" >Utilizando a Internet</h4>
+										</div>
+												<p class="text-card-blue">
+														Estratégias de promoção pela internet, como criar um site de sucesso e 
+										plano de...
+				
+												</p>
+				
+                        <div class="pj-pf">
+                          <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZPYEeVfDnQg2wqd6x&type=themes" target="_blank">Mais Detalhes</a>
+                        </div>
+											
+										</div>
+									</div>
+	
+									<div class="col-md-3 col-xs-12 clearfix">
+											<div class="card mb-2 temas">
+											<div class="card mb-2 temas-img" >
+												<img
+													class="imagem-icone"
+													src="Imagens/financeiro.png"
+													alt="Card image cap"
+												/>
+												<h4 class="card-text" >Controle Financeiro</h4>
+											</div>
+													<p class="text-card-blue">
+															O que é e como utilizar o capital de giro, controles financeiros,
+										calculando preço...
+													</p>
+					
+                          <div class="pj-pf">
+                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZPbSmH1PLjxd_EABF&type=themes" target="_blank">Mais Detalhes</a>
+                          </div>
+												
+											</div>
+									</div>
+
+				</div>
+
+							<div class="margin"></div>
+	
+								<div class="d-flex row">
+									
+									<div class="col-md-3 col-xs-12 clearfix">
+											<div class="card mb-2 temas">
+											<div class="card mb-2 temas-img" >
+												<img
+													class="imagem-icone"
+													src="Imagens/gerenciando-pessoas.png"
+													alt="Card image cap"
+												/>
+												<h4 class="card-text" >Gestão de Pessoas</h4>
+											</div>
+													<p class="text-card-blue">
+															Descrição e Perfil dos Cargos, recrutamento e seleção de pessoal...
+													</p>
+					
+                          <div class="pj-pf">
+                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZPimQzTaRgT8wDOXm&type=themes" target="_blank">Mais Detalhes</a> 
+                          </div>
+												
+											</div>
+									</div>
+
+									<div class="col-md-3 col-xs-12 clearfix">
+											<div class="card mb-2 temas">
+											<div class="card mb-2 temas-img" >
+												<img
+													class="imagem-icone"
+													src="Imagens/processos-internos.png"
+													alt="Card image cap"
+												/>
+												<h4 class="card-text" >Processos Internos</h4>
+											</div>
+													<p class="text-card-blue">
+															Procedimento Operacional Padrão e seus Indicadores de Desempenho, 
+										modelos...
+													</p>
+					
+                          <div class="pj-pf">
+                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZPm95E9fURafX2Z0Y&type=themes" target="_blank">Mais Detalhes</a>
+                          </div>
+												
+											</div>
+									</div>
+	
+									<div class="col-md-3 col-xs-12 clearfix">
+											<div class="card mb-2 temas">
+											<div class="card mb-2 temas-img" >
+												<img
+													class="imagem-icone"
+													src="Imagens/familia.png"
+													alt="Card image cap"
+												/>
+												<h4 class="card-text" >Familia e Negocios</h4>
+											</div>
+													<p class="text-card-blue">
+															Estratégias da sucessão planejada, definição de tarefas, cargos, salários.
+													</p>
+					
+                          <div class="pj-pf">
+                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZPrruGKTHT-v2Hx3P&type=themes" target="_blank">Mais Detalhes</a>
+                          </div>
+                          
+												
+											</div>
+									</div>
+	
+									<div class="col-md-3 col-xs-12 clearfix">
+											<div class="card mb-2 temas">
+											<div class="card mb-2 temas-img" >
+												<img
+													class="imagem-icone"
+													src="Imagens/lider.png"
+													alt="Card image cap"
+												/>
+												<h4 class="card-text" >Lider e Gestor</h4>
+											</div>
+													<p class="text-card-blue">
+															Quais as principais competências de um líder no desenvolvimento de equipes...
+													</p>
+					
+                          <div class="pj-pf">
+                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZPwjFRkEMABofNXQT&type=themes" target="_blank">Mais Detalhes</a>
+                          </div>
+												
+											</div>
+									</div>
+								</div>
+
+								<div class="margin"></div>
+
+								<div class="d-flex row">
+
+									<div class="col-md-3 col-xs-12 clearfix">
+											<div class="card mb-2 temas">
+											<div class="card mb-2 temas-img" >
+												<img
+													class="imagem-icone"
+													src="Imagens/tecnologia.png"
+													alt="Card image cap"
+												/>
+												<h4 class="card-text" >Tecnologia</h4>
+											</div>
+													<p class="text-card-blue">
+															Sistemas administrativos de negócios online.
+													</p>
+					
+                          <div class="pj-pf">
+                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZQDALLKZmRcrOkgFP&type=themes" target="_blank">Mais Detalhes</a>
+                          </div>
+												
+											</div>
+									</div>
+									<div class="col-md-3 col-xs-12 clearfix">
+											<div class="card mb-2 temas">
+											<div class="card mb-2 temas-img" >
+												<img
+													class="imagem-icone"
+													src="Imagens/sustentabilidade.png"
+													alt="Card image cap"
+												/>
+												<h4 class="card-text" >Sustentabilidade</h4>
+											</div>
+													<p class="text-card-blue">
+															Ações Sustentáveis para o seu negócio, ganhado dinheiro com recicláveis...
+													</p>
+					
+                          <div class="pj-pf">
+                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZQGixLowmy1rcqbKH&type=themes" target="_blank">Mais Detalhes</a>
+                          </div>
+												
+											</div>
+									</div>
+	
+									<div class="col-md-3 col-xs-12 clearfix">
+											<div class="card mb-2 temas">
+											<div class="card mb-2 temas-img" >
+												<img
+													class="imagem-icone"
+													src="Imagens/plano.png"
+													alt="Card image cap"
+												/>
+												<h4 class="card-text" >Plano</h4>
+											</div>
+													<p class="text-card-blue">
+															Construção e implementação de um Plano de Marketing.
+													</p>
+					
+                          <div class="pj-pf">
+                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZQKa3Yef9tQKaEYQ1&type=themes" target="_blank">Mais Detalhes</a>
+                          </div>
+												
+											</div>
+									</div>
+				
+									<div class="col-md-3 col-xs-12 clearfix">
+											<div class="card mb-2 temas">
+											<div class="card mb-2 temas-img" >
+												<img
+													class="imagem-icone"
+													src="Imagens/empreendedor.png"
+													alt="Card image cap"
+												/>
+												<h4 class="card-text" >Como ser Empreendedor</h4>
+											</div>
+													<p class="text-card-blue">
+															Conhecimento + Habilidade + Atitudes, como explorar as suas qualidades...
+													</p>
+					
+                          <div class="pj-pf">
+                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-Lc76x3jiLfOJ14NSSzs&type=themes" target="_blank">Mais detalhes</a>
+                          </div>
+												
+											</div>
+									</div>
+								</div>
+
+								<div class="margin"></div>
+
+								<div class="d-flex row">
+
+									<div class="col-md-3 col-xs-12 clearfix">
+											<div class="card mb-2 temas">
+											<div class="card mb-2 temas-img" >
+												<img
+													class="imagem-icone"
+													src="Imagens/leis.png"
+													alt="Card image cap"
+												/>
+												<h4 class="card-text" >Leis de Trabalho</h4>
+											</div>
+													<p class="text-card-blue">
+															Modalidades Contratuais (contrato de trabalho, trabalho temporário...
+													</p>
+					
+                          <div class="pj-pf">
+                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LNUjrR-T0MBw3A-mkk4&type=themes" target="_blank">Mais Detalhes</a>
+                          </div>
+                          
+												
+											</div>
+									</div>
+	
+									<div class="col-md-3 col-xs-12 clearfix">
+											<div class="card mb-2 temas">
+											<div class="card mb-2 temas-img" >
+												<img
+													class="imagem-icone"
+													src="Imagens/pequeno-negocio.png"
+													alt="Card image cap"
+												/>
+												<h4 class="card-text" >Gerenciando Pequenos Negócios</h4>
+											</div>
+													<p class="text-card-blue">
+															
+													</p>
+					
+                          <div class="pj-pf">
+                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LSRVJSC67fYupERVFZe&type=themes" target="_blank">Mais Detalhes</a>
+                          </div>
+												
+											</div>
+									</div>
+
+
+									
+									<div class="col-md-3 col-xs-12 clearfix">
+											<div class="card mb-2 temas">
+											<div class="card mb-2 temas-img" >
+												<img
+													class="imagem-icone"
+													src="Imagens/comerciais.png"
+													alt="Card image cap"
+												/>
+												<h4 class="card-text" >Estratégias Comerciais</h4>
+											</div>
+													<p class="text-card-blue">
+															Estratégias de comercialização, técnicas de negociação
+														e vendas, pós-Venda...
+													</p>
+					
+                          <div class="pj-pf">
+                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZPRuzTOvn7nfPXWvk&type=themes" target="_blank">Mais detalhes</a>
+                          </div>
+												
+											</div>
+									</div>
+
+									<div class="col-md-3 col-xs-12 clearfix">
+											<div class="card mb-2 temas">
+											<div class="card mb-2 temas-img" >
+												<img
+													class="imagem-icone"
+													src="Imagens/atendimento.png"
+													alt="Card image cap"
+												/>
+												<h4 class="card-text" >Atendimento</h4>
+											</div>
+													<p class="text-card-blue">
+															Tipos de atendimento, técnicas de atendimento e...
+													</p>
+					
+                          <div class="pj-pf">
+                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZPV3-Vlv7A89uN6lA&type=themes" target="_blank">Mais detalhes</a>
+                          </div>
+												
+											</div>
+									</div>
+															
+								</div>
+						
+				</div>
+
+			</div>
+			<!--/.Slides-->
+		</div>
+		<!--/.Carousel Wrapper-->
+  </section>
+
+  <section>
+		<div id="themes-pj" class="row section-padding">
+		  <div class="col-md-12 heading-title text-center">
+			<br />
+			<br />
+			<h14 class="card-text text-uppercase-products">Nossos Temas Para Pessoa Jurídica</h14>
+		  </div>
+			  <div>
+				  <div class="d-flex">
+					
+					<div class="col-md-3 themes-margin col-xs-12 clearfix">
+							<div class="card mb-2 temas">
+							<div>
+								<img
+									class="imagem-icone"
+									src="Imagens/cenarios.png"
+									alt="Card image cap"
+								/>
+								<h4 class="card-text" >Tendências</h4>
+							</div>
+									<p class="text-card-blue">
+											O futuro das profissões e dos mercados, cenário e tendências socioeconômicos...
+	
+									</p>
+	
+                  <div class="pj-pf">
+                     <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZRZuIP5GVNrgVeb4C&type=themes" target="_blank">Mais Detalhes</a>  
+
+                  </div>
+								
+							</div>
+						</div>
+
+					<div class="col-md-3 col-xs-12 clearfix">
+						<div class="card mb-2 temas">
+						<div>
+							<img
+								class="imagem-icone"
+								src="Imagens/inovacao.png"
+								alt="Card image cap"
+							/>
+							<h4 class="card-text" >Inovação</h4>
+						</div>
+								<p class="text-card-blue">
+                                    Inovação começa com uma boa gestão, a importância da inovação e como inovar...
+
+								</p>
+
+                <div class="pj-pf">
+                  <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZRbJ8jXPfRUrV2cvo&type=themes" target="_blank">Mais Detalhes</a>
+
+                </div>
+							
+						</div>
+					</div>
+
+					<div class="col-md-3 col-xs-12 clearfix">
+							<div class="card mb-2 temas">
+							<div class="text-center">
+								<img
+									class="imagem-icone"
+									src="Imagens/empreendedorismo.png"
+									alt="Card image cap"
+                />
+                <h4 class="card-text" >Empreendedorismo</h4>
+							</div>
+									<p class="text-card-blue">
+											O que é empreendedorismo; A rotina de um empresário, perfil e 
+											características...
+	
+									</p>
+	
+                  <div class="pj-pf">
+                    <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZRhtnyCqyJZkYgbor&type=themes" target="_blank">Mais Detalhes</a> 
+
+                  </div>
+							</div>
+					</div>
+
+					<div class="col-md-3 col-xs-12 clearfix">
+							<div class="card mb-2 temas">
+							  <div>
+								  <img
+									class="imagem-icone"
+									src="Imagens/abrirnegocio.png"
+									alt="Card image cap"
+								  />
+							  	<h4 class="card-text" >Abrir um Negócio</h4>
+							  </div>
+									<p class="text-card-blue">
+											Como diferenciar o seu negócio e produto da 
+                      concorrência, realizar uma...
+									</p>
+	
+                  <div class="pj-pf">
+                    <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZORJjsKH7qsZHMQWr&type=themes" target="_blank">Mais detalhes</a>
+                  </div>
+								
+							</div>
+					</div>
+				</div><!--/.First slide-->
+
+				<div class="margin"></div>
+
+				<div class="d-flex row">
+
+						<div class="col-md-3 col-xs-12 clearfix">
+								<div class="card mb-2 temas">
+								<div class="card mb-2 temas-img" >
+									<img
+										class="imagem-icone"
+										src="Imagens/estrategias-mkt.png"
+										alt="Card image cap"
+									/>
+									<h4 class="card-text" >Estratégia de Marketing</h4>
+								</div>
+										<p class="text-card-blue">
+												Como analisar a concorrência e mercado, fidelizar clientes
+												e definir público-alvo.
+		
+										</p>
+		
+                    <div class="pj-pf">
+                      <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZV2iPULmVL85bP4Q0&type=themes" target="_blank">Mais Detalhes</a>
+
+                    </div>
+									
+								</div>
+						</div>
+
+						<div class="col-md-3 col-xs-12 clearfix">
+								<div class="card mb-2 temas">
+								<div class="card mb-2 temas-img" >
+									<img
+										class="imagem-icone"
+										src="Imagens/plano.png"
+										alt="Card image cap"
+									/>
+									<h4 class="card-text" >Plano de Negócios</h4>
+								</div>
+										<p class="text-card-blue">
+												Plano de negócio e Plano de negócio simplificado.
+		
+										</p>
+		
+                    <div class="pj-pf">
+                      <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZRrOE6gYvWaunM6QV&type=themes" target="_blank">Mais Detalhes</a> 
+
+                    </div>
+									
+								</div>
+						</div>
+						
+						
+						<div class="col-md-3 col-xs-12 clearfix">
+								<div class="card mb-2 temas">
+								<div class="card mb-2 temas-img" >
+									<img
+										class="imagem-icone"
+										src="Imagens/modelo.png"
+										alt="Card image cap"
+									/>
+									<h4 class="card-text" >Modelo de Negócios</h4>
+								</div>
+										<p class="text-card-blue">
+												Franquias – pontos fortes e fracos, negócios na internet e 
+                                    Co Working...
+		
+										</p>
+		
+                    <div class="pj-pf">
+                      <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZRuIjP8ArL6xzOZLO&type=themes" target="_blank">Mais Detalhes</a> 
+
+                    </div>
+									
+								</div>
+						</div>
+						
+						<div class="col-md-3 col-xs-12 clearfix">
+								<div class="card mb-2 temas">
+								<div class="card mb-2 temas-img" >
+									<img
+										class="imagem-icone"
+										src="Imagens/compras.png"
+										alt="Card image cap"
+									/>
+									<h4 class="card-text" >Compras e Estoque</h4>
+								</div>
+										<p class="text-card-blue">
+												Gestão de compras, gestão de estoques e escolhendo e gerenciando fornecedores.
+		
+										</p>
+		
+                    <div class="pj-pf">
+                      <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZRw8b4YOPIytbWOsE&type=themes" target="_blank">Mais Detalhes</a>
+
+                    </div>
+									
+								</div>
+						</div>
+					
+				</div>
+
+				<div class="margin"></div>
+
+				<div class="d-flex row">
+
+					<div class="col-md-3 col-xs-12 clearfix">
+						<div class="card mb-2 temas">
+						<div class="card mb-2 temas-img" >
+							<img
+								class="imagem-icone"
+								src="Imagens/startup.png"
+								alt="Card image cap"
+							/>
+							<h4 class="card-text" >Iniciar uma Startup</h4>
+						</div>
+								<p class="text-card-blue">
+										O que é preciso para abrir uma startup, o que é o modelo Canvas e estratégias para...
+
+								</p>
+
+                <div class="pj-pf">
+                  <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZSH9XQvpfrtU9w307&type=themes" target="_blank">Mais Detalhes</a> 
+
+                </div>
+							
+						</div>
+					</div>
+
+					<div class="col-md-3 col-xs-12 clearfix">
+							<div class="card mb-2 temas">
+							<div class="card mb-2 temas-img" >
+								<img
+									class="imagem-icone"
+									src="Imagens/registro-marca.png"
+									alt="Card image cap"
+								/>
+								<h4 class="card-text" >Registro de Marca</h4>
+							</div>
+									<p class="text-card-blue">
+											Modelos de empresas, tipos de tributação, trâmites e pré-requisitos para...
+	
+									</p>
+	
+                  <div class="pj-pf">
+                    <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZSO2LgA87Dr5_UpPI&type=themes" target="_blank">Mais Detalhes</a>
+
+                  </div>
+								
+							</div>
+					</div>
+
+					<div class="col-md-3 col-xs-12 clearfix">
+							<div class="card mb-2 temas">
+							<div class="card mb-2 temas-img" >
+								<img
+									class="imagem-icone"
+									src="Imagens/alimentos.png"
+									alt="Card image cap"
+								/>
+								<h4 class="card-text" >Trabalho com Alimentos</h4>
+							</div>
+									<p class="text-card-blue">
+											Tendências do Mercado de Alimentos, gerenciamento de problemas nas...
+									</p>
+	
+                  <div class="pj-pf">
+                    <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LWCVAteUoc9vYew8cR6&type=themes" target="_blank">Mais Detalhes</a> 
+
+                  </div>
+								
+							</div>
+					</div>
+
+					<div class="col-md-3 col-xs-12 clearfix">
+							<div class="card mb-2 temas">
+							<div class="card mb-2 temas-img" >
+								<img
+									class="imagem-icone"
+									src="Imagens/pdv.png"
+									alt="Card image cap"
+								/>
+								<h4 class="card-text" >Ponto de Venda</h4>
+							</div>
+									<p class="text-card-blue">
+											Técnicas de Merchandising, como escolher seu ponto comercial e 
+                     como...
+	
+									</p>
+	
+                  <div class="pj-pf">
+                    <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZSWhIMRO1QcAAFK8V&type=themes" target="_blank">Mais Detalhes</a> 
 
                   </div>
 								
@@ -684,8 +1514,7 @@
 								</p>
 
                 <div class="pj-pf">
-                   <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LSRVVvm39LKAtb6kurn&type=themes" target="_blank">PJ</a>
-                   <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LSRVY-xexWNLJAkX0ft&type=themes" target="_blank">PF</a> 
+                   <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LSRVY-xexWNLJAkX0ft&type=themes" target="_blank">Mais Detalhes</a> 
 
                   </div>
 
@@ -711,8 +1540,7 @@
 								</p>
 
                 <div class="pj-pf">
-                  <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LSR__lMg02o95LfK0gE&type=themes" target="_blank">PF</a> 
-                  <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LSR_ey6MxEwSRNGWl9z&type=themes" target="_blank">PJ</a> 
+                  <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LSR_ey6MxEwSRNGWl9z&type=themes" target="_blank">Mais Detalhes</a> 
 
                 </div>
 							
@@ -737,8 +1565,7 @@
 									</p>
 	
                   <div class="pj-pf">
-                    <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZPGmfjglJjqabhxst&type=themes" target="_blank">PF</a>
-                    <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZTFe3apWKFAwKMLfS&type=themes" target="_blank">PJ</a>
+                    <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZTFe3apWKFAwKMLfS&type=themes" target="_blank">Mais Detalhes</a>
                   </div>
 								
 							</div>
@@ -761,8 +1588,7 @@
 										</p>
 		
                     <div class="pj-pf">
-                      <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZPRuzTOvn7nfPXWvk&type=themes" target="_blank">PF</a>
-                      <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZTHje1cFRM0C2tOpI&type=themes" target="_blank">PJ</a>
+                      <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZTHje1cFRM0C2tOpI&type=themes" target="_blank">Mais Detalhes</a>
 
                     </div>
 									
@@ -817,8 +1643,7 @@
 											</p>
 			
                       <div class="pj-pf">
-                        <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZPV3-Vlv7A89uN6lA&type=themes" target="_blank">PF</a>
-                       <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZTQRIPoGx8Ypt4UUY&type=themes" target="_blank">PJ</a> 
+                       <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZTQRIPoGx8Ypt4UUY&type=themes" target="_blank">Mais Detalhes</a> 
 
                       </div>
 										
@@ -843,8 +1668,7 @@
 												</p>
 				
                         <div class="pj-pf">
-                          <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZPYEeVfDnQg2wqd6x&type=themes" target="_blank">PF</a>
-                          <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZTTvcYt_G1ozCUVve&type=themes" target="_blank">PJ</a> 
+                          <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZTTvcYt_G1ozCUVve&type=themes" target="_blank">Mais detalhes</a> 
 
                         </div>
 											
@@ -867,8 +1691,7 @@
 													</p>
 					
                           <div class="pj-pf">
-                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZPbSmH1PLjxd_EABF&type=themes" target="_blank">PF</a>
-                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZTWJFgLOdLtpPH2t7&type=themes" target="_blank">PJ</a>
+                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZTWJFgLOdLtpPH2t7&type=themes" target="_blank">Mais Detalhes</a>
 
                           </div>
 												
@@ -896,8 +1719,7 @@
 													</p>
 					
                           <div class="pj-pf">
-                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZPimQzTaRgT8wDOXm&type=themes" target="_blank">PF</a> 
-                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZTZkB1qnL7MGGg7f8&type=themes" target="_blank">PJ</a> 
+                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZTZkB1qnL7MGGg7f8&type=themes" target="_blank">Mais Detalhes</a> 
 
                           </div>
 												
@@ -920,8 +1742,7 @@
 													</p>
 					
                           <div class="pj-pf">
-                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZPm95E9fURafX2Z0Y&type=themes" target="_blank">PF</a>
-                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZUxsXP-uSBHmPbjem&type=themes" target="_blank">PJ</a> 
+                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZUxsXP-uSBHmPbjem&type=themes" target="_blank">Mais Detalhes</a> 
 
                           </div>
 												
@@ -943,8 +1764,7 @@
 													</p>
 					
                           <div class="pj-pf">
-                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZPrruGKTHT-v2Hx3P&type=themes" target="_blank">PF</a>
-                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZUzxb1qBL0ATUTeGb&type=themes" target="_blank">PJ</a>
+                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZUzxb1qBL0ATUTeGb&type=themes" target="_blank">Mais Detalhes</a>
 
                           </div>
                           
@@ -967,8 +1787,7 @@
 													</p>
 					
                           <div class="pj-pf">
-                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZPwjFRkEMABofNXQT&type=themes" target="_blank">PF</a>
-                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZV0rLPA9pUa8MANAh&type=themes" target="_blank">PJ</a> 
+                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZV0rLPA9pUa8MANAh&type=themes" target="_blank">Mais Detalhes</a> 
 
                           </div>
 												
@@ -995,8 +1814,7 @@
 													</p>
 					
                           <div class="pj-pf">
-                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZQDALLKZmRcrOkgFP&type=themes" target="_blank">PF</a>
-                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZV550H8aUlZGJi61H&type=themes" target="_blank">PJ</a>
+                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZV550H8aUlZGJi61H&type=themes" target="_blank">Mais Detalhes</a>
 
                           </div>
 												
@@ -1017,8 +1835,7 @@
 													</p>
 					
                           <div class="pj-pf">
-                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZQGixLowmy1rcqbKH&type=themes" target="_blank">PF</a>
-                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZV7KgwiUSV5-9gI_p&type=themes" target="_blank">PJ</a>
+                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZV7KgwiUSV5-9gI_p&type=themes" target="_blank">Mais Detalhes</a>
 
                           </div>
 												
@@ -1040,8 +1857,7 @@
 													</p>
 					
                           <div class="pj-pf">
-                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZQKa3Yef9tQKaEYQ1&type=themes" target="_blank">PF</a>
-                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZVAr-tknJW44ZmLft&type=themes" target="_blank">PJ</a>
+                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LJZVAr-tknJW44ZmLft&type=themes" target="_blank">Mais detalhes</a>
 
                           </div>
 												
@@ -1089,8 +1905,7 @@
 													</p>
 					
                           <div class="pj-pf">
-                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LNUjrR-T0MBw3A-mkk4&type=themes" target="_blank">PF</a>
-                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LNUl3FmsShtHLIaIHX0&type=themes" target="_blank">PJ</a>
+                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LNUl3FmsShtHLIaIHX0&type=themes" target="_blank">Mais Detalhes</a>
 
                           </div>
                           
@@ -1113,8 +1928,7 @@
 													</p>
 					
                           <div class="pj-pf">
-                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LSRVJSC67fYupERVFZe&type=themes" target="_blank">PF</a>
-                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LSRW1l_XmHk43hshwDE&type=themes" target="_blank">PJ</a>
+                            <a class="button-card" href="https://aluno.capacitampe.com.br/#/shop-themes?classid=-LSRW1l_XmHk43hshwDE&type=themes" target="_blank">Mais Detalhes</a>
 
                           </div>
 												

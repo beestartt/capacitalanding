@@ -4,7 +4,7 @@
  */
 
 section {
-    background-color: #eeeeee;
+    background-color: white;
 }
 
 section,
@@ -1364,3 +1364,25 @@ h19 {
   text-align: center;
   display: flex;
 }
+
+.themes-none {
+  display: none;
+}
+
+#themes-pf{
+  display: none;
+}
+
+#themes-pj{
+  display: none;
+}
+
+.themes-margin {
+  margin-left: 4vh;
+  margin-right: 4vh;
+}
+
+.themes-block {
+  display: block !important;
+}
+
