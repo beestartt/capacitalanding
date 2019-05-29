@@ -1421,3 +1421,26 @@ h19 {
 .display-themes {
   display: -webkit-box !important; 
 }
+
+.padding-themes-section {
+  padding-bottom: 20vh;
+}
+
+.backGround-img{
+ background-image: url('../../../Imagens/employee.png');
+ width: 36px;
+ height: 36px;
+ background-repeat: no-repeat;
+}
+
+.backGround-img-enterprise{
+  background-image: url('../../../Imagens/enterprise.png');
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+ }
+
+ .margin-icon {
+  margin-top: 18px;
+  margin-left: 12px;
+ }
