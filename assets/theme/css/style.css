@@ -435,7 +435,7 @@ nav .mbr-section-btn {
 .mbr-arrow-up-icon::before {
 	content: "\203a";
 	display: inline-block;
-	font-family: serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 32px;
 	line-height: 1;
 	font-style: normal;
@@ -724,7 +724,7 @@ nav .mbr-section-btn {
 	font-size: 16px;
 	color: black;
 	line-height: 30px;
-	font-family: "Montserrat" !important;
+	font-family: 'Montserrat', sans-serif !important;
 	margin-bottom: 0;
 }
 
@@ -760,7 +760,7 @@ h10 {
 h11 {
 	font-size: 22px !important;
 	color: white;
-	font-family: "Montserrat" !important;
+	font-family: 'Montserrat', sans-serif !important;
 	text-align: center;
 	font-weight: normal !important;
 }
@@ -768,7 +768,7 @@ h11 {
 h12 {
 	font-size: 65px;
 	color: #fff;
-	font-family: "Montserrat" !important;
+	font-family:  'Montserrat', sans-serif !important;
 	padding-left: 110px;
 	font-weight: bold;
 	text-align: center;
@@ -777,14 +777,14 @@ h12 {
 h13 {
 	font-size: 20px;
 	color: #fff;
-	font-family: "Montserrat" !important;
+	font-family:  'Montserrat', sans-serif !important;
 	text-align: center;
 }
 
 h14 {
 	font-size: 2em;
 	color: #fff !important;
-	font-family: "Montserrat" !important;
+	font-family:  'Montserrat', sans-serif !important;
 	text-align: center;
 	font-weight: bold;
 }
@@ -792,7 +792,7 @@ h14 {
 h15 {
 	font-size: 15px;
 	color: black;
-	font-family: "Montserrat" !important;
+	font-family:  'Montserrat', sans-serif !important;
 	text-align: center !important;
 	font-weight: bold !important;
 }
@@ -800,7 +800,7 @@ h15 {
 h16 {
 	font-size: 20px;
 	color: white;
-	font-family: "Montserrat" !important;
+	font-family:  'Montserrat', sans-serif !important;
 	text-align: center !important;
 	font-weight: 500px !important;
 }
@@ -808,13 +808,13 @@ h16 {
 h16 {
 	font-size: 18px;
 	color: black;
-	font-family: "Montserrat" !important;
+	font-family:  'Montserrat', sans-serif !important;
 	text-align: center !important;
 	font-weight: bold !important;
 }
 
 h17 {
-	font-family: "Montserrat" !important;
+	font-family:  'Montserrat', sans-serif !important;
 	color: white;
 	font-size: 26px;
 	font-style: bold;
@@ -823,7 +823,7 @@ h17 {
 .consultants-title {
 	font-size: 32px;
 	color: rgb(6, 163, 218) !important;
-	font-family: "Montserrat" !important;
+	font-family:  'Montserrat', sans-serif !important;
 	text-align: center;
 	font-weight: bold;
 	padding-top: 25px;
@@ -850,7 +850,7 @@ h17 {
 	900italic
 );
 body {
-	font-family: "Montserrat";
+	font-family:  'Montserrat', sans-serif !important;
 	line-height: 1.5;
 	color: #323232;
 	font-size: 15px;
@@ -1008,8 +1008,9 @@ body {
 
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300, 500, 900);
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);
 figure.snip1382 {
-	font-family: "Source Sans Pro", Arial, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	position: relative;
 	overflow: hidden;
 	margin: 10px;
