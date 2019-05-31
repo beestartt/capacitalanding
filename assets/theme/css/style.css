@@ -1453,3 +1453,7 @@ h19 {
  .promotion-padding {
   padding-top: 48px;
  }
+
+ html * {
+   font-family: 'Montserrat';
+ }
