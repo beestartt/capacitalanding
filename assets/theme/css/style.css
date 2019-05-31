@@ -3,6 +3,10 @@
  * Copyright 2017 Mobirise
  */
 
+ @import url(https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
+ @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300, 500, 900);
+ @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+ 
 section {
 	background-color: white;
 }
@@ -1006,9 +1010,7 @@ body {
 	letter-spacing: 1px;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300, 500, 900);
-@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
-@import url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);
+
 figure.snip1382 {
 	font-family: 'Montserrat', sans-serif;
 	position: relative;
@@ -1457,3 +1459,7 @@ h19 {
  html * {
    font-family: 'Montserrat';
  }
+
+.qualuqer {
+  font-family: 
+}
