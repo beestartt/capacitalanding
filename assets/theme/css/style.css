@@ -24,8 +24,8 @@ a.mbr-iconfont:hover {
 .article .lead pre,
 .article .lead blockquote {
 	margin-bottom: 0;
+  
 }
-
 a {
 	font-style: normal;
 	font-weight: 400;
@@ -1443,4 +1443,13 @@ h19 {
  .margin-icon {
   margin-top: 18px;
   margin-left: 12px;
+ }
+
+ .padding-wagner {
+  padding-left: 430px;
+  padding-right: 430px;
+ }
+
+ .promotion-padding {
+  padding-top: 48px;
  }
